@@ -16,7 +16,7 @@ export const rgba = (color: string) => `rgba(${color})`;
 
 export enum ThemeNames {
   default = 'default',
-  dark = 'dark',
+  light = 'light',
 }
 
 interface ThemeContextProps {
@@ -54,12 +54,12 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
   const sm = width < 768;
   const xs = width < 480;
 
-  const arrayOfThemes = [ThemeNames.default, ThemeNames.dark];
+  const arrayOfThemes = [ThemeNames.default, ThemeNames.light];
 
   const currentTheme: Themes[ThemeNames] =
-    themes[arrayOfThemes.find(theme => theme === currentThemeName) || ThemeNames.default];
+    themes[arrayOfThemes.find(theme => theme ===  currentThemeName) || ThemeNames.default];
 
-  const isCurrentThemeDark = currentThemeName === ThemeNames.dark;
+  const isCurrentThemeDark = currentThemeName === ThemeNames.default;
 
   return (
     <ThemeContext.Provider

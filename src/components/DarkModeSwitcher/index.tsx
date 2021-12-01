@@ -20,7 +20,7 @@ export default function DarkModeSwitcher() {
         type="checkbox"
         checked={isCurrentThemeDark}
         onChange={() =>
-          isCurrentThemeDark ? changeTheme(ThemeNames.default) : changeTheme(ThemeNames.dark)
+          isCurrentThemeDark ? changeTheme(ThemeNames.light) : changeTheme(ThemeNames.default)
         }
       />
       <span className="DarkModeSwitcher__slider">
