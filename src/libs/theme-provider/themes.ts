@@ -4,7 +4,7 @@ import { Themes } from './types';
 export const themes: Themes = {
   default: {
     headerBg: { hex: '#4D4AEC', rgb: [32, 32, 46] },
-    mainBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
+    mainBg: { hex: '#1C1C1C', rgb: [43, 45, 60] },   //main background
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
     darkBlue: { hex: '#383d51', rgb: [56, 61, 81] },
@@ -14,7 +14,7 @@ export const themes: Themes = {
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
     green: { hex: '#79c982', rgb: [121, 201, 130] },
     white: { hex: '#f1f1f3', rgb: [241, 241, 243] },
-    whiteElement: { hex: '#262626', rgb: [56, 61, 81] },
+    whiteElement: { hex: '#262626', rgb: [56, 61, 81] },      //market buttons
     whiteItem: { hex: '#2b2d3c', rgb: [43, 45, 60] },
     darkOrange: { hex: '#f0650a', rgb: [240, 101, 10] }, // for deposit APY
     gray: { hex: '#707070', rgb: [112, 112, 112] },
