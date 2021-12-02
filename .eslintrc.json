@@ -25,6 +25,12 @@
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "react-hooks/exhaustive-deps": "off",
-    "no-nested-ternary": "off"
+    "no-nested-ternary": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
