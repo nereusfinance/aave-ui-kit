@@ -8,6 +8,7 @@ export interface Themes {
     textDarkBlue: { hex: string; rgb: number[] };
     lightBlue: { hex: string; rgb: number[] };
     red: { hex: string; rgb: number[] };
+    nereusYellow: { hex: string; rgb: number[] };
     orange: { hex: string; rgb: number[] };
     green: { hex: string; rgb: number[] };
     white: { hex: string; rgb: number[] };

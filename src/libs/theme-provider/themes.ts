@@ -12,6 +12,7 @@ export const themes: Themes = {
     lightBlue: { hex: '#8d8f99', rgb: [141, 143, 153] },
     red: { hex: '#de5959', rgb: [222, 89, 89] },
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
+    nereusYellow: {hex:'#E7FC6E', rgb:[231, 252, 110]},
     green: { hex: '#79c982', rgb: [121, 201, 130] },
     white: { hex: '#f1f1f3', rgb: [241, 241, 243] },
     whiteElement: { hex: '#262626', rgb: [56, 61, 81] },      //market buttons
@@ -32,6 +33,7 @@ export const themes: Themes = {
     red: { hex: '#de5959', rgb: [222, 89, 89] },
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
     green: { hex: '#79c982', rgb: [121, 201, 130] },
+    nereusYellow: {hex:'#E7FC6E', rgb:[231, 252, 110]},
     white: { hex: '#ffffff', rgb: [255, 255, 255] },
     whiteElement: { hex: '#ffffff', rgb: [255, 255, 255] },
     whiteItem: { hex: '#ffffff', rgb: [255, 255, 255] },
