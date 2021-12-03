@@ -19,5 +19,6 @@ export interface Themes {
     lightGray: { hex: string; rgb: number[] };
     disabledGray: { hex: string; rgb: number[] };
     maxWhite: { hex: string; rgb: number[] };
+    backgroundBackBtn: { hex: string; rgb: number[] };
   };
 }
