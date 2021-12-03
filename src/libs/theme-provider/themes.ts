@@ -22,7 +22,9 @@ export const themes: Themes = {
     lightGray: { hex: '#a2a2a2', rgb: [162, 162, 162] },
     disabledGray: { hex: '#20202e', rgb: [32, 32, 46] },
     maxWhite: { hex: '#ffffff', rgb: [255, 255, 255] },
+    maxBlack: { hex: '#000000', rgb: [0, 0, 0] },
     backgroundBackBtn: { hex: '#3b3b3b', rgb: [59, 59, 59] },
+    textDescr: { hex: '#8a8a8a', rgb: [138, 138, 138] },
   },
   light: {
     headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
@@ -44,6 +46,8 @@ export const themes: Themes = {
     lightGray: { hex: '#a2a2a2', rgb: [162, 162, 162] },
     disabledGray: { hex: '#e0e0e2', rgb: [224, 224, 226] },
     maxWhite: { hex: '#ffffff', rgb: [255, 255, 255] },
+    maxBlack: { hex: '#000000', rgb: [0, 0, 0] },
     backgroundBackBtn: { hex: '#3b3b3b', rgb: [59, 59, 59] },
+    textDescr: { hex: '#8a8a8a', rgb: [138, 138, 138] },
   },
 };
