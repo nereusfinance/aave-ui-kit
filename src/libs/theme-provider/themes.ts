@@ -28,6 +28,7 @@ export const themes: Themes = {
     maxBlack: { hex: '#000000', rgb: [0, 0, 0] },
     backgroundBackBtn: { hex: '#3b3b3b', rgb: [59, 59, 59] },
     textDescr: { hex: '#8a8a8a', rgb: [138, 138, 138] },
+    switchOnColor: { hex: '#55BCC0', rgb: [85, 188, 192] },
   },
   light: {
     headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
@@ -55,5 +56,6 @@ export const themes: Themes = {
     maxBlack: { hex: '#000000', rgb: [0, 0, 0] },
     backgroundBackBtn: { hex: '#3b3b3b', rgb: [59, 59, 59] },
     textDescr: { hex: '#8a8a8a', rgb: [138, 138, 138] },
+    switchOnColor: { hex: '#55BCC0', rgb: [85, 188, 192] },
   },
 };

@@ -13,7 +13,7 @@ export interface Themes {
     nereusYellow: { hex: string; rgb: number[] };
     orange: { hex: string; rgb: number[] };
     green: { hex: string; rgb: number[] };
-    statusDarkGreen: { hex: string, rgb: number[] };
+    statusDarkGreen: { hex: string; rgb: number[] };
     white: { hex: string; rgb: number[] };
     whiteElement: { hex: string; rgb: number[] };
     whiteItem: { hex: string; rgb: number[] };
@@ -25,5 +25,6 @@ export interface Themes {
     maxBlack: { hex: string; rgb: number[] };
     backgroundBackBtn: { hex: string; rgb: number[] };
     textDescr: { hex: string; rgb: number[] };
+    switchOnColor: { hex: string; rgb: number[] };
   };
 }
