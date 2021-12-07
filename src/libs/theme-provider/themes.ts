@@ -4,7 +4,7 @@ import { Themes } from './types';
 export const themes: Themes = {
   default: {
     headerBg: { hex: '#4D4AEC', rgb: [32, 32, 46] },
-    headerDarkBg:{hex:'#4845D7', rgb:[72, 69, 215]},
+    headerDarkBg: { hex: '#4845D7', rgb: [72, 69, 215] },
     mainBg: { hex: '#1C1C1C', rgb: [43, 45, 60] }, // main background
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
@@ -31,7 +31,7 @@ export const themes: Themes = {
   },
   light: {
     headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
-    headerDarkBg:{hex:'#4845D7', rgb:[72, 69, 215]},
+    headerDarkBg: { hex: '#4845D7', rgb: [72, 69, 215] },
     mainBg: { hex: '#f1f1f3', rgb: [241, 241, 243] },
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
