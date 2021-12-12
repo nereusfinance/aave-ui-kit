@@ -26,5 +26,9 @@ export interface Themes {
     backgroundBackBtn: { hex: string; rgb: number[] };
     textDescr: { hex: string; rgb: number[] };
     switchOnColor: { hex: string; rgb: number[] };
+    chosenLinkColor: { hex: string; rgb: number[] };
+    marketHover: { hex: string; rgb: number[] };
+    disabledButtonBackground: { hex: string; rgb: number[] };
+    disabledButtonBorder: { hex: string; rgb: number[] };
   };
 }

@@ -29,6 +29,10 @@ export const themes: Themes = {
     backgroundBackBtn: { hex: '#3b3b3b', rgb: [59, 59, 59] },
     textDescr: { hex: '#8a8a8a', rgb: [138, 138, 138] },
     switchOnColor: { hex: '#55BCC0', rgb: [85, 188, 192] },
+    chosenLinkColor: { hex: '#261C1C1C', rgb: [138, 138, 138] },
+    marketHover: { hex: '#1f1f1f', rgb: [	31, 31, 31] },
+    disabledButtonBackground: { hex: '#353535', rgb: [	53, 53, 53] },
+    disabledButtonBorder: { hex: '#414141', rgb: [	65, 65, 65] },
   },
   light: {
     headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
@@ -57,5 +61,9 @@ export const themes: Themes = {
     backgroundBackBtn: { hex: '#3b3b3b', rgb: [59, 59, 59] },
     textDescr: { hex: '#8a8a8a', rgb: [138, 138, 138] },
     switchOnColor: { hex: '#55BCC0', rgb: [85, 188, 192] },
+    chosenLinkColor: { hex: '#261C1C1C', rgb: [138, 138, 138] },
+    marketHover: { hex: '#1f1f1f', rgb: [	31, 31, 31] },
+    disabledButtonBackground: { hex: '#353535', rgb: [	53, 53, 53] },
+    disabledButtonBorder: { hex: '#414141', rgb: [	65, 65, 65] },
   },
 };
