@@ -7,7 +7,7 @@ export interface ButtonProps {
   onClick?: (event: any) => void;
   title: string;
   type?: 'button' | 'submit';
-  size?: 'big' | 'medium' | 'normal' | 'small';
+  size?: 'ultra_big' | 'big' | 'medium' | 'normal' | 'small';
   transparent?: boolean;
   mobileBig?: boolean;
   iconComponent?: ReactElement | ReactElement[];

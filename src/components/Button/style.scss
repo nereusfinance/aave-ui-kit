@@ -62,6 +62,11 @@
     z-index: 2;
   }
 
+  &__ultra_big {
+    width: 360px;
+    min-height: 40px;
+  }
+
   &__big {
     width: 160px;
     min-height: 40px;

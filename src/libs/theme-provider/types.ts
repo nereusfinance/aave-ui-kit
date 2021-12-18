@@ -12,6 +12,7 @@ export interface Themes {
     statusError: { hex: string; rgb: number[] };
     nereusYellow: { hex: string; rgb: number[] };
     orange: { hex: string; rgb: number[] };
+    submittedTransactionColor: { hex: string; rgb: number[] };
     green: { hex: string; rgb: number[] };
     statusDarkGreen: { hex: string; rgb: number[] };
     white: { hex: string; rgb: number[] };

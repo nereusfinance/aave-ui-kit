@@ -2,8 +2,9 @@
 @import 'src/_mixins/screen-size';
 
 .LabeledSwitch {
-  border-radius: 1px;
-  padding: 1px;
+  z-index: 2;
+  border-radius: 100px;
+  padding: 2px;
   position: relative;
 
   &__pointer {
@@ -33,27 +34,17 @@
     border-width: 1px;
     border-style: solid;
   }
-
   button {
-    width: 50%;
-    position: relative;
-    z-index: 2;
-    transition: all 0.4s ease;
-    display: inline-block;
-    padding: 1px 2px 2px;
     p {
-      display: inline-block;
-      margin: 0;
-      span {
-        display: block;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
+      color:white;
     }
   }
-
   &__buttonActive {
+    z-index: 1;
+    border-radius: 100px;
+    background-color: #E7FC6E;
     p {
+      -webkit-text-fill-color: #1C1C1C;
       span {
         font-weight: 600;
       }
@@ -62,6 +53,7 @@
 }
 
 .LabeledSwitchDisabled {
+  color:white;
   button {
     cursor: default;
   }
