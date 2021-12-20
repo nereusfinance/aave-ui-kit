@@ -31,5 +31,6 @@ export interface Themes {
     marketHover: { hex: string; rgb: number[] };
     disabledButtonBackground: { hex: string; rgb: number[] };
     disabledButtonBorder: { hex: string; rgb: number[] };
+    btnGrey: { hex: string; rgb: number[] };
   };
 }
