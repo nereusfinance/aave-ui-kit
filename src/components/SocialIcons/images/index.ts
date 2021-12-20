@@ -13,8 +13,12 @@ import whiteGithubIcon from './whiteGithub.svg';
 import discordIcon from './discordIcon.svg';
 import colorDiscordIcon from './colorDiscord.svg';
 import whiteDiscordIcon from './whiteDiscord.svg';
+import colorMedium from './colorMedium.svg';
+import whiteMedium from './whiteMedium.svg';
 
 export {
+  colorMedium,
+  whiteMedium,
   twitterIcon,
   colorTwitterIcon,
   whiteTwitterIcon,

@@ -11,6 +11,7 @@ export enum SocialType {
   Telegram = 'Telegram',
   Github = 'Github',
   Discord = 'Discord',
+  Medium = 'Medium',
 }
 
 export interface SocialIcon {
@@ -59,6 +60,11 @@ const ICONS: {
     icon: img.discordIcon,
     colorIcon: img.colorDiscordIcon,
     whiteIcon: img.whiteDiscordIcon,
+  },
+  [SocialType.Medium]: {
+    icon: img.colorMedium,
+    colorIcon: img.colorMedium,
+    whiteIcon: img.whiteMedium,
   },
 };
 
