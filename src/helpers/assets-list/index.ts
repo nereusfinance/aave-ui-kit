@@ -608,6 +608,15 @@ export const assetsList: Asset[] = [
     icon: icons.wbtc,
     aIcon: aIcons.awbtc,
   },
+
+  // Nereus
+  {
+    name: 'WIREX Protocol Mock Token (WXT)',
+    symbol: 'WXT',
+    color: '#b6509e',
+    icon: icons.wxt,
+    aIcon: icons.wxt,
+  },
 ];
 
 export const getAssetInfoFactory = (_assetsList: Asset[]) => (_assetSymbol: string): Asset => {
