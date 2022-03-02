@@ -57,7 +57,7 @@ export default function LabeledSwitch({
           onClick={() => handleToggle(false)}
           type="button"
           style={{
-            width:`${width ? width*0.26 : 142}px`,
+            width:`${width ? width * 0.69 : 161}px`,
             minHeight: `${(height || 0) - 2}px`,
             fontSize: `${fontSize}px`,
           }}
