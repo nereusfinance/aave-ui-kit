@@ -9,7 +9,7 @@ export const themes: Themes = {
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
     darkBlue: { hex: '#383d51', rgb: [56, 61, 81] },
-    textDarkBlue: { hex: '#f1f1f3', rgb: [241, 241, 243] },
+    textDarkBlue: { hex: '#fff', rgb: [255, 255, 255] },
     lightBlue: { hex: '#8d8f99', rgb: [141, 143, 153] },
     red: { hex: '#de5959', rgb: [222, 89, 89] },
     statusError: { hex: '#FE3366', rgb: [222, 89, 89] },
@@ -18,7 +18,7 @@ export const themes: Themes = {
     nereusYellow: { hex: '#E7FC6E', rgb: [231, 252, 110] },
     green: { hex: '#05D864', rgb: [121, 201, 130] },
     statusDarkGreen: { hex: '#349660', rgb: [121, 201, 130] },
-    white: { hex: '#f1f1f3', rgb: [241, 241, 243] },
+    white: { hex: '#fff', rgb: [255, 255, 255] },
     whiteElement: { hex: '#262626', rgb: [56, 61, 81] }, // market buttons
     whiteItem: { hex: '#2b2d3c', rgb: [43, 45, 60] },
     darkOrange: { hex: '#f0650a', rgb: [94, 40, 4] }, // for deposit APY
@@ -39,7 +39,7 @@ export const themes: Themes = {
   light: {
     headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
     headerDarkBg: { hex: '#4845D7', rgb: [72, 69, 215] },
-    mainBg: { hex: '#f1f1f3', rgb: [241, 241, 243] },
+    mainBg: { hex: '#fff', rgb: [255, 255, 255] },
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
     darkBlue: { hex: '#383d51', rgb: [56, 61, 81] },
