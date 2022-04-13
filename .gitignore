@@ -30,7 +30,6 @@ example/.cache
 
 web-build/
 web-report/
-dist/
 .idea
 web-build
 
