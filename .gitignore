@@ -13,7 +13,7 @@ example/.cache
 /coverage
 
 # production
-#/build
+/build
 
 # misc
 .DS_Store
@@ -30,6 +30,7 @@ example/.cache
 
 web-build/
 web-report/
+dist/
 .idea
 web-build
 

@@ -1,15 +1,15 @@
 {
-  "version": "0.1.17",
+  "version": "0.1.16",
   "private": false,
   "license": "BSD-3-Clause",
   "description": "This package contains the ui components and helpers for AAVE projects",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "name": "@nereus/aave-ui-kit",
+  "name": "@aave/aave-ui-kit",
   "module": "dist/aave-ui-kit.esm.js",
   "repository": {
     "type": "git",
-    "url": "git@githab.com:nereusfinance/nereus-ui-kit.git"
+    "url": "git@githab.com:aave/aave-ui-kit.git"
   },
   "files": [
     "dist"
@@ -34,11 +34,13 @@
     "tabWidth": 2,
     "trailingComma": "es5"
   },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "@types/react-modal": "^3.10.6",
     "classnames": "^2.2.6",
-    "react-countdown": "^2.3.1",
     "react-custom-scrollbars": "^4.2.1",
     "react-modal": "^3.12.1",
     "react-switch": "^6.0.0",
