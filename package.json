@@ -5,11 +5,11 @@
   "description": "This package contains the ui components and helpers for AAVE projects",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "name": "@aave/aave-ui-kit",
+  "name": "@nereus/aave-ui-kit",
   "module": "dist/aave-ui-kit.esm.js",
   "repository": {
     "type": "git",
-    "url": "git@githab.com:aave/aave-ui-kit.git"
+    "url": "git@githab.com:nereusfinance/nereus-ui-kit.git"
   },
   "files": [
     "dist"
