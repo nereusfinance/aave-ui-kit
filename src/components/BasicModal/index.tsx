@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { ReactNode, useEffect } from 'react';
 import Modal from 'react-modal';
 import classNames from 'classnames';

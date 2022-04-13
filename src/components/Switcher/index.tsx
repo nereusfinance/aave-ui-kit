@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useEffect, useCallback, ReactElement } from 'react';
 import Switch from 'react-switch';
 import classNames from 'classnames';
