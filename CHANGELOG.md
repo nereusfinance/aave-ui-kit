@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://githab.com/aave/aave-ui-kit/compare/v0.2.0...v0.1.17) (2022-04-13)
+
+
+### Features
+
+* add wxt asset ([6d98d02](https://githab.com/aave/aave-ui-kit/commit/6d98d028ce2580e68fafdf828059fa86981c9b10))
+
+
+### Bug Fixes
+
+* fixed dependencies ([a5f2cdc](https://githab.com/aave/aave-ui-kit/commit/a5f2cdce5a9c47c55a2a7d6edd66b666c9bfb03b))
+
 ### 0.1.14 (2021-11-01)
 
 ### 0.1.13 (2021-10-06)
