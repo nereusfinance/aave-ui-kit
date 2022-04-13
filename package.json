@@ -34,9 +34,6 @@
     "tabWidth": 2,
     "trailingComma": "es5"
   },
-  "peerDependencies": {
-    "react": ">=17"
-  },
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "@types/react-modal": "^3.10.6",
