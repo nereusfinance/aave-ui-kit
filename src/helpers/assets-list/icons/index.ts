@@ -42,6 +42,8 @@ import frax from './frax.svg';
 import fei from './fei.svg';
 import usdp from './usdp.svg';
 import wxt from './wxt.svg';
+import joe from './joe.svg';
+import ust from './ust.svg';
 
 interface Images {
   [name: string]: string;
@@ -92,4 +94,6 @@ export default {
   fei,
   usdp,
   wxt,
+  joe,
+  ust
 } as Images;
