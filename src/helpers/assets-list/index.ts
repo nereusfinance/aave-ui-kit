@@ -204,14 +204,14 @@ export const assetsList: Asset[] = [
     aIcon: aIcons.agusd,
   },
   {
-    name: 'Curve DAO Token',
+    name: 'Curve DAO Token (CRV)',
     symbol: 'CRV',
     color: '#f4f402',
     icon: icons.crv,
     aIcon: aIcons.acrv,
   },
   {
-    name: 'Curve DAO Token',
+    name: 'Curve DAO Token (CRV)',
     symbol: 'CRVSEC',
     formattedSymbol: 'CRV',
     color: '#f4f402',
@@ -219,7 +219,7 @@ export const assetsList: Asset[] = [
     aIcon: aIcons.acrv,
   },
   {
-    name: 'TerraUSD',
+    name: 'TerraUSD (UST.e)',
     symbol: 'UST',
     color: '#5392f7',
     icon: icons.ust,
@@ -578,7 +578,7 @@ export const assetsList: Asset[] = [
 
   // avalanche icon
   {
-    name: 'Avalanche',
+    name: 'Avalanche (AVAX)',
     symbol: 'AVAX',
     color: '#E84142',
     icon: icons.avax,
@@ -623,7 +623,7 @@ export const assetsList: Asset[] = [
     aIcon: aIcons.ausdc,
   },
   {
-    name: 'USDT Coin (USDT.e)',
+    name: 'Tether (USDT.e)',
     symbol: 'USDT.E',
     formattedSymbol: 'USDT.e',
     color: '#4db196',
@@ -631,7 +631,7 @@ export const assetsList: Asset[] = [
     aIcon: aIcons.ausdt,
   },
   {
-    name: 'WBTC Coin (WBTC.e)',
+    name: 'Wrapped BTC (WBTC.e)',
     symbol: 'WBTC.E',
     formattedSymbol: 'WBTC.e',
     color: '#ff7600',
