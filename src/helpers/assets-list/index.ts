@@ -212,6 +212,14 @@ export const assetsList: Asset[] = [
     aIcon: aIcons.acrv,
   },
   {
+    name: 'Curve DAO Token (CRV)',
+    symbol: 'CRV',
+    formattedSymbol: 'CRV.e',
+    color: '#f4f402',
+    icon: icons.crv,
+    aIcon: aIcons.acrv,
+  },
+  {
     name: 'JoeToken',
     symbol: 'JOE',
     color: '#f2706a',
@@ -631,6 +639,20 @@ export const assetsList: Asset[] = [
     color: '#b6509e',
     icon: icons.wxt,
     aIcon: icons.wxt,
+  },
+  {
+    name: 'Curve.fi Factory USD Metapool: NXUSD+av3CRV',
+    symbol: 'NXUSD3CRV3CRV-f',
+    color: '#2775ca',
+    icon: icons.nxusd3crvf,
+    aIcon: icons.anxusd3crvf,
+  },
+  {
+    name: 'Joe LP Token',
+    symbol: 'JLP',
+    color: '#b6509e',
+    icon: icons.wxtnxusd,
+    aIcon: icons.awxtnxusd,
   },
 ];
 

@@ -38,6 +38,8 @@ import afei from './afei.svg';
 import ausdp from './ausdp.svg';
 import ajoe from './ajoe.svg'
 import aust from './aust.svg'
+import anxusd3crvf from './anxusd3crv-f.svg';
+import awxtnxusd from './awxtnxusd.svg';
 
 interface Images {
   [name: string]: string;
@@ -83,5 +85,7 @@ export default {
   afei,
   ausdp,
   ajoe,
-  aust
+  aust,
+  anxusd3crvf,
+  awxtnxusd,
 } as Images;

@@ -44,6 +44,8 @@ import usdp from './usdp.svg';
 import wxt from './wxt.svg';
 import joe from './joe.svg';
 import ust from './ust.svg';
+import nxusd3crvf from './nxusd3crv-f.svg';
+import wxtnxusd from './wxtnxusd.svg';
 
 interface Images {
   [name: string]: string;
@@ -95,5 +97,7 @@ export default {
   usdp,
   wxt,
   joe,
-  ust
+  ust,
+  nxusd3crvf,
+  wxtnxusd,
 } as Images;
