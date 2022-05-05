@@ -642,7 +642,7 @@ export const assetsList: Asset[] = [
   },
   {
     name: 'Curve.fi Factory USD Metapool: NXUSD+av3CRV',
-    symbol: 'NXUSD3CRV3CRV-f',
+    symbol: 'NXUSD3CRVf',
     color: '#2775ca',
     icon: icons.nxusd3crvf,
     aIcon: icons.anxusd3crvf,
