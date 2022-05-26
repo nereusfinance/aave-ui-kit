@@ -657,7 +657,7 @@ export const assetsList: Asset[] = [
 
   // Nereus
   {
-    name: 'Wirex Token (WXT)',
+    name: 'WXT (WXT)',
     symbol: 'WXT',
     color: '#b6509e',
     icon: icons.wxt,
