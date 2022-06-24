@@ -62,7 +62,7 @@ export default function LabeledSwitch({
           onClick={() => handleToggle(false)}
           type="button"
           style={{
-            width:`${width ? width * 0.69 : leftSwitcherWidth ? leftSwitcherWidth : 161}px`,
+            width:`${leftSwitcherWidth ? leftSwitcherWidth : width}px`,
             minHeight: `${(height || 0) - 2}px`,
             fontSize: `${fontSize}px`,
           }}
@@ -78,7 +78,7 @@ export default function LabeledSwitch({
           onClick={() => handleToggle(true)}
           type="button"
           style={{
-            width:`${width ? width * 0.69 : rightSwitcherWidth ? rightSwitcherWidth : 161}px`,
+            width:`${rightSwitcherWidth ? rightSwitcherWidth : width}px`,
             minHeight: `${(height || 0) - 2}px`,
             fontSize: `${fontSize}px`,
           }}
