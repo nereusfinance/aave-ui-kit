@@ -10,6 +10,8 @@ type LabeledSwitchProps = {
   onToggle: (value: boolean) => void;
   className?: string;
   width?: number;
+  leftSwitcherWidth?:number;
+  rightSwitcherWidth?:number;
   height?: number;
   fontSize?: number;
   disabled?: boolean;
@@ -17,6 +19,7 @@ type LabeledSwitchProps = {
 
 export default function LabeledSwitch({
   value,
+
   leftOption,
   rightOption,
   onToggle,
@@ -25,6 +28,8 @@ export default function LabeledSwitch({
   height,
   fontSize,
   disabled,
+  leftSwitcherWidth,
+  rightSwitcherWidth,
 }: LabeledSwitchProps) {
   const handleToggle = (toggleValue: boolean) => {
     if (!disabled) {
@@ -57,7 +62,7 @@ export default function LabeledSwitch({
           onClick={() => handleToggle(false)}
           type="button"
           style={{
-            width:`${width ? width * 0.69 : 161}px`,
+            width:`${width ? width * 0.69 : leftSwitcherWidth ? leftSwitcherWidth : 161}px`,
             minHeight: `${(height || 0) - 2}px`,
             fontSize: `${fontSize}px`,
           }}
@@ -73,7 +78,7 @@ export default function LabeledSwitch({
           onClick={() => handleToggle(true)}
           type="button"
           style={{
-            width:`${width ? width * 0.69 : 161}px`,
+            width:`${width ? width * 0.69 : rightSwitcherWidth ? rightSwitcherWidth : 161}px`,
             minHeight: `${(height || 0) - 2}px`,
             fontSize: `${fontSize}px`,
           }}
