@@ -37,6 +37,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
+      data-cy="button"
     >
       <div className="Button__wrapper">
         {iconComponent && iconComponent}
