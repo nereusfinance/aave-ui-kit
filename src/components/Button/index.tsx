@@ -13,6 +13,7 @@ export interface ButtonProps {
   iconComponent?: ReactElement | ReactElement[];
   disabled?: boolean;
   className?: string;
+  dataCY?: string;
 }
 
 export default function Button({
@@ -25,6 +26,7 @@ export default function Button({
   iconComponent,
   disabled,
   className,
+  dataCY,
 }: ButtonProps) {
   return (
     <button
@@ -37,7 +39,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      data-cy="button"
+      data-cy={`button-${dataCY}`}
     >
       <div className="Button__wrapper">
         {iconComponent && iconComponent}
